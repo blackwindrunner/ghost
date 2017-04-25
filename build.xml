@@ -4,7 +4,7 @@
      
 
 	
-	<target name="test">
+	<target name="test1">
 		<echo>aaaaa</echo>
 	</target>
 </project>

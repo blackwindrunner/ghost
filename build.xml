@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project default="test" basedir=".">
+
+     
+
+	
+	<target name="test">
+		<echo>aaaaa</echo>
+	</target>
+</project>

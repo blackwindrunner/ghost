@@ -20,10 +20,11 @@ Milestone 时间，进度，可关闭
 
 # Milestone里程碑
 - 里程碑中可以把feature,issue等都标记在同一个里程碑中，这样里程碑中的效果如下
-![an example](https://assets-cdn.github.com/images/modules/site/product-illo/img-projects-milestones.png)
+- ![an example](https://assets-cdn.github.com/images/modules/site/product-illo/img-projects-milestones.png)
  
 # project 项目
-- 项目中可以列出来当前任务列表
-- 任务可以转换成issue，用来分配处理者
+
+- 项目中可以列出来当前任务列表
+- 任务可以转换成issue，用来分配处理者
 - 任务可以拖拽到不同的columns，用来表示不同的状态
 - 通过card功能，可以把和当前项目关联的issue拖拽到当前任务中

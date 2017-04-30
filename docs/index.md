@@ -10,7 +10,11 @@ Milestone 时间，进度，可关闭
 - 利用多任务标示，来查看issue的解决进度,例如如下（必须要创建issue里写-[]的形式，也就是issus中第一个留言）
 - [x] 字体不清晰 
 - [ ] 边框要波浪
-- 自动关闭：包含fix/fixes/fixed, close/closes/closed或者resolve/resolves/resolved #问题编号的提交记录，将自动关闭该问题。
+- 自动关闭：包含`fix/fixes/fixed`, `close/closes/closed`或者`resolve/resolves/resolved` #问题编号的提交记录，将自动关闭该问题。
+
+```git
+$ git commit -m "Fix screwup, fixes #12"
+```
 - 必须是提交到默认分支的时候这个功能才可以使用
 
 # 代码提交

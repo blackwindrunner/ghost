@@ -1,8 +1,8 @@
 # 问题管理
-Assignees
-Labels 按特殊标记索引，可加入"新需求"这样的标签，
-Projects 新建项目，tool，runtime等吧
-Milestone 时间，进度，可关闭
+> Assignees
+> Labels 按特殊标记索引，可加入"新需求"这样的标签，
+> Projects 新建项目，tool，runtime等吧
+> Milestone 时间，进度，可关闭
 
 # issue
 - 可以使用Markdown

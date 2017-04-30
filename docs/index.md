@@ -1,10 +1,14 @@
-# 问题管理
-> Assignees
-> Labels 按特殊标记索引，可加入"新需求"这样的标签，
-> Projects 新建项目，tool，runtime等吧
-> Milestone 时间，进度，可关闭
 
-# issue
+:cn:
+# 问题管理 :question:
+* Assignees
+* Labels 按特殊标记索引，可加入"新需求"这样的标签，
+* Projects 新建项目，tool，runtime等吧
+* Milestone 时间，进度，可关闭
+
+***
+
+# issue :bug:
 - 可以使用Markdown
 - 可以使用#issue号来引入问题，例如：#3
 - 利用多任务标示，来查看issue的解决进度,例如如下（必须要创建issue里写-[]的形式，也就是issus中第一个留言）
@@ -15,9 +19,17 @@
 ```git
 $ git commit -m "Fix screwup, fixes #12"
 ```
+- 在其他仓库中关闭issue的时候，使用这个语法username/repository#issue_number，例如
+```git
+$ git commit -m "Closes example_user/example_repo#76"
+```
+- 同时关闭多个issue
+```git
+$ git commit -m "This closes #34, closes #23, and closes example_user/example_repo#42"
+```
 - 必须是提交到默认分支的时候这个功能才可以使用
 
-# 代码提交
+# 代码提交 :arrow_up:
 - 在commit的时候可以用#符号带引入issue
 
 # Labels

@@ -10,7 +10,8 @@ Milestone 时间，进度，可关闭
 - 利用多任务标示，来查看issue的解决进度,例如如下（必须要创建issue里写-[]的形式，也就是issus中第一个留言）
 - [x] 字体不清晰 
 - [ ] 边框要波浪
-- 自动关闭：包含Fixes/Fixed/Close/Closes/Closed #问题编号的提交记录，将自动关闭该问题。
+- 自动关闭：包含fix/fixes/fixed, close/closes/closed或者resolve/resolves/resolved #问题编号的提交记录，将自动关闭该问题。
+- 必须是提交到默认分支的时候这个功能才可以使用
 
 # 代码提交
 - 在commit的时候可以用#符号带引入issue
@@ -28,3 +29,4 @@ Milestone 时间，进度，可关闭
 - 任务可以转换成issue，用来分配处理者
 - 任务可以拖拽到不同的columns，用来表示不同的状态
 - 通过card功能，可以把和当前项目关联的issue拖拽到当前任务中
+ 

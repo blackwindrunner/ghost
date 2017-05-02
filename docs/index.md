@@ -46,3 +46,6 @@ $ git commit -m "This closes #34, closes #23, and closes example_user/example_re
 - 任务可以拖拽到不同的columns，用来表示不同的状态
 - 通过card功能，可以把和当前项目关联的issue拖拽到当前任务中
  
+# 魔性的zenhub `魔性的不忍直视`
+https://www.zenhub.com/
+ 
